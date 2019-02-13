@@ -13,7 +13,7 @@ See the sphinxcontrib.versioning_ documentation if you need more features or wou
 
 .. _sphinxcontrib.versioning: https://robpol86.github.io/sphinxcontrib-versioning/
 
-📖 Full documentation: https://sphinxconfig-simpleversioning.readthedocs.io/
+📖 Full documentation: https://sphinxcontrib-simpleversioning.readthedocs.io/
 
 Quickstart
 ==========
