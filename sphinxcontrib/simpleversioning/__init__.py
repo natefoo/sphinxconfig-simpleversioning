@@ -13,7 +13,7 @@ from sphinx.jinja2glue import SphinxFileSystemLoader
 
 __author__ = '@natefoo'
 __license__ = 'MIT'
-__version__ = '0.0.1'
+__version__ = '0.0.2'
 
 DEFAULT_BANNER = """This document is not for the latest release of %(project)s. You can alternatively <a
 href="%(stable_path)s">view this page in the latest release if it exists</a> or <a href="%(stable_root)s">view the top

@@ -41,7 +41,12 @@ Changelog
 
 This project adheres to `Semantic Versioning <http://semver.org/>`_.
 
-0.0.1 - 2017-01-17
+0.0.2 - 2019-02-13
+------------------
+
+* Drop reference to unused banner.css from sphinxcontrib.versioning_.
+
+0.0.1 - 2018-01-17
 ------------------
 
 * Initial development/testing version.
