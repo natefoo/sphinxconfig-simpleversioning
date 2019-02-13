@@ -3,6 +3,7 @@
 
 from __future__ import print_function
 
+import ast
 import codecs
 import os
 import re
@@ -13,7 +14,15 @@ IMPORT = 'sphinxcontrib.simpleversioning'
 INSTALL_REQUIRES = ['sphinx']
 LICENSE = 'MIT'
 NAME = 'sphinxcontrib-simpleversioning'
-VERSION = '0.0.1'
+VERSION = None
+SOURCE_DIR = os.path.join('sphinxcontrib', 'simpleversioning')
+
+_version_re = re.compile(r'__version__\s+=\s+(.*)')
+
+
+with codecs.open(os.path.join(SOURCE_DIR, '__init__.py'), encoding='utf-8') as f:
+    match = _version_re.search(f.read()).group(1)
+    VERSION = str(ast.literal_eval(match))
 
 
 def readme(path='README.rst'):
