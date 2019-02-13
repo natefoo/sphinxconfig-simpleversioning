@@ -166,8 +166,8 @@ def setup(app):
     #app.add_config_value('sphinxcontrib_versioning_versions', SC_VERSIONING_VERSIONS, 'html')
 
     # Needed for banner.
-    app.config.html_static_path.append(STATIC_DIR)
-    app.add_stylesheet('banner.css')
+    #app.config.html_static_path.append(STATIC_DIR)
+    #app.add_stylesheet('banner.css')
 
     # Tell Sphinx which config values can be set by the user.
     app.add_config_value('simpleversioning_path_template', '{path_to_root}/../{version}/{pagename}', 'html')
